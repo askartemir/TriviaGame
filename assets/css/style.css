@@ -1,0 +1,37 @@
+.title h1{
+	text-align: center;
+	color: purple;
+	font-size: 70px;
+}
+
+#start-trivia{
+	width: 50%;
+}
+
+body{
+	font-weight: bold;
+}
+
+div{
+	text-align: center;
+}
+
+.time-left{
+	color: red;
+}
+/*hide answer buttons at the start*/
+button.pick-answer{
+	float: left;
+	width: 20%;
+	display: none;
+	margin: 0 2.5%;
+}
+
+.question{
+	color: orange;
+	font-weight: bold;
+}
+
+.answer div{
+	margin: 0 auto;
+}
